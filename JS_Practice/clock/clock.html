@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <style>
+        .dislay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            color: #fe1717;
+            font-size: 60px;
+            font-family: Orbitron;
+            letter-spacing: 7px;
+
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="clock" class="dislay" onload="showtime()">
+        <div id="date">
+
+        </div>
+
+    </div>
+    <script src="clock.js"></script>
+</body>
+
+</html>
