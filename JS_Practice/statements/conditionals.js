@@ -12,6 +12,7 @@
 // } else {
 //   console.log("given number is zero");
 // }
+
 // Check if a person is eligible to vote (age ≥ 18).
 // let age = prompt("enter your age to confirm");
 // if (age >= 18) {
@@ -36,29 +37,72 @@
 //   console.log("failed");
 // }
 // Write a program to check whether a character is a vowel or consonant.
-let vowels = ["a", ""];
 
 // Given two numbers, print the larger one.
+// let a = prompt("enter first number ");
+// let b = prompt("Enter second number ");
+// if (ao > b) {
+//   console.log(a, "is larger");
+// } else {
+//   console.log(b, " is larger ");
+// }
 
 // Check whether a given year is a leap year or not.
+// let year = Number(prompt("Enter a year"));
 
+// if (year % 4 == 0) {
+//   console.log(year, "is leap year");
+// } elsse {
+//   console.log(year, "not a leap year");
+// }
 // Write a program that checks if a given number is divisible by 5 and 11.
-
+// let num = Number(prompt("Enter a number"));
+// if (num % 5 == 0 && num % 11 == 0) {
+//   console.log("divisible by both");
+// } else if (num % 5 == 0) {
+//   console.log("divisible by 5 ");
+// } else if (num % 11 == 0) {
+//   console.log("divisible by 11");
+// } else {
+//   cnonsole.log("Not divisible by any ");
+// }
 // 🟡 Intermediate Level
 
 // Focus: Multiple conditions, nested if, logical operators (&&, ||), and ternary usage.
 
 // Given three numbers, find the largest among them.
+// let num1 = Number(prompt("enter first number"));
+// let num2 = Number(prompt("Enter second number"));
+// let num3 = Number(prompt("Enter third number "));
+
+// if (num1 > num2 && num1 > num3) {
+//   console.log(num1, "first number is larger ");
+// } else if (num2 > num1 && num2 > num3) {
+//   console.log(num2, "Second number is larger");
+// } else {,
+//   console.log(num3, "Third number is larger ");
+// }
 
 // Check if a given character is an alphabet, digit, or special character.
 
 // A shop gives a discount of 10% if the purchase amount is above 1000.
-
 // If not, no discount.
-
-// Calculate the total amount to pay.
+// let bill = Number(prompt("Enter your bill amount"));
+// let disc = 0.1;
+// if (bill > 1000) {
+//   bill - disc;
+//   console.log("Total amount to pay is :", bill);
+// } else {
+//   console.log("No discount is applied.Total discount to pay is :", bill);
+// }
 
 // Check if a year is a century leap year (e.g., 2000 is, 1900 is not).
+let year = Number(prompt("enter a year to check"));
+if (year % 400 === 0) {
+  console.log(year, "is a century leap year");
+} else {
+  console.log(year, "Is not a century leap year");
+}
 
 // Write a program that checks whether a person is a child (0–12), teen (13–19), adult (20–59), or senior (60+).
 
