@@ -97,18 +97,34 @@
 // }
 
 // Check if a year is a century leap year (e.g., 2000 is, 1900 is not).
-let year = Number(prompt("enter a year to check"));
-if (year % 400 === 0) {
-  console.log(year, "is a century leap year");
-} else {
-  console.log(year, "Is not a century leap year");
-}
+// let year = Number(prompt("enter a year to check"));
+// if (year % 400 === 0) {
+//   console.log(year, "is a century leap year");
+// } else {
+//   console.log(year, "Is not a century leap year");
+// }
 
 // Write a program that checks whether a person is a child (0–12), teen (13–19), adult (20–59), or senior (60+).
+// let age = Number(prompt("Enter your age to check categoty"));
+// if (age >= 0 && age <= 12) {
+//   console.log("child");
+// } else if (age >= 13 && age <= 19) {
+//   console.log("teen");
+// } else if (age >= 20 && age <= 59) {
+//   console.log("adult");
+// } else {
+//   console.log("senior");
+// }
 
 // Using a ternary operator, print “Even” if a number is even, otherwise “Odd”.
 
 // Check if a number is within the range of 10 to 50 (inclusive).
+let num = Number(prompt("Enter the number"));
+if (num >= 10 && num <= 50) {
+  console.log("number is from given range");
+} else {
+  console.log("number is not from given list");
+}
 
 // Given marks in three subjects, determine if the student passed (each subject ≥ 40) and if they qualified for distinction (average ≥ 75).
 
